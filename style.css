@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Poppins:wght@300;400;500&family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,500;1,8..144,200&display=swap');
+
+:root{
+    --font-family: 'Kaisei Decol', serif;
+    --md-font: font-family: 'Poppins', sans-serif;
+    --sm-font: font-family: 'Roboto Serif', serif;
+    --blue: #4070f4;
+}
+
+body{
+    font-size: var(--sm-font);
+}
+
+ /* button */
+.bg-primary{
+    background-color: var(--blue)! important;
+}
+
+.btn:not(.nav-btns button){
+    background-color: #fff;
+    color: rgb(85, 85, 85);
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgb(85, 85, 85);
+    box-shadow: 1px 5px purple;
+}
+
+.btn:not(.nav-btns button):hover{
+    background-color: rgb(240, 159, 159);
+    color: #fff;
+    border-color:  rgb(240, 159, 159);
+    box-shadow: none;
+}
+
+   /* navBar  */
+.navbar{
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img{
+    width: 30px;
+}
+
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+
+.nav-link:hover{
+    color: var(--blue)! important;
+}
+
+.nav-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+#header{
+    background: url(./image/wedd.jpg) top/cover no-repeat;
+}
+
+.carousel-inner h1{
+    font-size: var(--md-font);
+    font-family: var(--lg-font);
+}
+
+.carousel-item .btn{
+    border-color: #fff !important;
+}
+
+.carousel-item .btn:hover{
+    border-color: rgb(240, 159, 159);
+}
+
+
+
+
+     /* media queries */ 
+@media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}
