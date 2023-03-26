@@ -124,6 +124,28 @@ body{
         -ms-transform: scale(1.2);
             transform: scale(1.2);
 }
+      /* offers special products */
+#offers{
+    background: url(/image/on.jpg) center/cover no-repeat;
+}
+
+#offers{
+    min-height: 50vh;
+}
+
+#offers-content span{
+    font-size: var(--md-font);
+}
+
+#offers-content h2{
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+
+#offers-content .btn{
+    border-color: transparent!important;   
+}
+
 
      /* media queries */ 
 @media(min-width: 992px){
