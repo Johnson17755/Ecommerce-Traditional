@@ -10,6 +10,8 @@
  <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
  <!-- custom css -->
  <link rel = "stylesheet" href = "style.css">
+  <!-- boxicons css -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     
@@ -33,6 +35,12 @@
                           <button type = "button" class = "btn position-relative">
                               <i class = "fa fa-search"></i>
                           </button>
+                          <div class="darkLight-searchBox">
+                                <div class="dark-light">
+                                    <i class='bx bx-moon moon'></i>
+                                    <i class='bx bx-sun sun'></i>
+                                </div>
+                          </div>
                       </div>
           
                       <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
@@ -63,8 +71,6 @@
                     </div>
                 </div>
             </nav>
-                    </div>
-                  </nav> 
                   <!-- end of navbar -->
 
                    <!-- HEADER START  -->
@@ -428,24 +434,75 @@
                                 <div class = "col-md-6 col-lg-4 row g-3">
                                     <h3 class = "fs-5">Top Rated</h3>
                                     <div class = "d-flex align-items-start justify-content-start">
-                                        <img src = "images/" alt = "" class = "img-fluid pe-3 w-25">
+                                        <img src = "image/gold.jpg" alt = "" class = "img-fluid pe-3 w-25">
                                         <div>
                                             <p class = "mb-0">Blue Shirt</p>
-                                            <span>$ 20.00</span>
+                                            <span>N 2000</span>
                                         </div>
                                     </div>
                                     <div class = "d-flex align-items-start justify-content-start">
-                                        <img src = "images/" alt = "" class = "img-fluid pe-3 w-25">
+                                        <img src = "image/Ankara.jpg" alt = "" class = "img-fluid pe-3 w-25">
                                         <div>
-                                            <p class = "mb-0">Blue Shirt</p>
-                                            <span>$ 20.00</span>
+                                            <p class = "mb-0">Design</p>
+                                            <span>N 2000</span>
                                         </div>
                                     </div>
                                     <div class = "d-flex align-items-start justify-content-start">
-                                        <img src = "images/" alt = "" class = "img-fluid pe-3 w-25">
+                                        <img src = "image/top_rated_2.jpg" alt = "" class = "img-fluid pe-3 w-25">
                                         <div>
-                                            <p class = "mb-0">Blue Shirt</p>
-                                            <span>$ 20.00</span>
+                                            <p class = "mb-0">Wrist Watch</p>
+                                            <span>N 2000</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class = "col-md-6 col-lg-4 row g-3">
+                                    <h3 class = "fs-5">Best Selling</h3>
+                                    <div class = "d-flex align-items-start justify-content-start">
+                                        <img src = "image/on_sale_1.jpg" alt = "" class = "img-fluid pe-3 w-25">
+                                        <div>
+                                            <p class = "mb-0">Designers Bags</p>
+                                            <span>N 2000</span>
+                                        </div>
+                                    </div>
+                                    <div class = "d-flex align-items-start justify-content-start">
+                                        <img src = "image/we0.jpg" alt = "" class = "img-fluid pe-3 w-25">
+                                        <div>
+                                            <p class = "mb-0">Same Design</p>
+                                            <span>N 2000</span>
+                                        </div>
+                                    </div>
+                                    <div class = "d-flex align-items-start justify-content-start">
+                                        <img src = "image/shoe.jpg" alt = "" class = "img-fluid pe-3 w-25">
+                                        <div>
+                                            <p class = "mb-0">Material</p>
+                                            <span>N 2000</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class = "col-md-6 col-lg-4 row g-3">
+                                    <h3 class = "fs-5">On Sale</h3>
+                                    <div class = "d-flex align-items-start justify-content-start">
+                                        <img src = "image/best_selling_3.jpg" alt = "" class = "img-fluid pe-3 w-25">
+                                        <div>
+                                            <p class = "mb-0">t-Shirt</p>
+                                            <span>N 2000</span>
+                                        </div>
+                                    </div>
+                                    <div class = "d-flex align-items-start justify-content-start">
+                                        <img src = "image/top_rated_1.jpg" alt = "" class = "img-fluid pe-3 w-25">
+                                        <div>
+                                            <p class = "mb-0">Long sleeve</p>
+                                            <span>N 2000</span>
+                                        </div>
+                                    </div>
+                                    <div class = "d-flex align-items-start justify-content-start">
+                                        <img src = "image/best_selling_1.jpg" alt = "" class = "img-fluid pe-3 w-25">
+                                        <div>
+                                            <p class = "mb-0">Suit</p>
+                                            <span>N 2000</span>
                                         </div>
                                     </div>
                                 </div>
@@ -453,6 +510,97 @@
                         </div>
                     </section>
                     <!-- END OF POPULAR -->
+
+                    <!-- Newletter  -->
+                    <section id = "newsletter" class = "py-5">
+                        <div class = "container">
+                            <div class = "d-flex flex-column align-items-center justify-content-center">
+                                <div class = "title text-center pt-3 pb-5">
+                                    <h2 class = "position-relative d-inline-block ms-4">Newsletter Subscription</h2>
+                                </div>
+                
+                                <p class = "text-center text-muted">jhay_Materia is Nigeria’s number one online Shopping destination.
+                                     We pride ourselves in having everything you could possibly need for life and living at the best prices than anywhere else. 
+                                     Our access to Original Equipment Manufacturers and premium sellers gives us a wide range of products at very low prices. 
+                                     Some of our popular categories include material, shoe, bag, accessories, designer readyMade materials and a whole lot more from premium brands. 
+                                     To make your shopping experience swift and memorable, there are other price discounted prices and flexible payment.
+                                      When you shop on our platform, you can pay with your debit card or via jhay_Materia, which is a convenient and secured payment solution. Get the best of lifestyle services online.
+                                     Don't miss out on the biggest sales online which takes place on special dates yearly.</p>
+                                <div class = "input-group mb-3 mt-3">
+                                    <input type = "text" class = "form-control" placeholder="Enter Your Email ...">
+                                    <button class = "btn btn-primary" type = "submit">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- the end of Newletter -->
+
+                    <!-- footer  -->
+        <footer class= "bg-dark py-5">
+            <div class= "container">
+                <div class= "row text-white g-4">
+                    <div class= "col-md-6 col-lg-3">
+                     <a class= "text-uppercase text-decoration-none brand text-white" href = "index.html">jhay_Materia</a>
+                     <p class = "text-white text-muted mt-3">Enjoy your online experience with users friendly</p>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3">
+                        <div class = "fw-light">Links</div>
+                        <ul class = "my-3">
+                            <li clas s= "my-3">
+                                <a href="#" class = "text-white text-decoration-none text-muted">
+                                    <i class = "fas fa-chevron-right me-1"></i> Home
+                                </a>
+                            </li>
+                            <li class = "my-3">
+                                <a href = "#" class = "text-white text-decoration-none text-muted">
+                                    <i class = "fas fa-chevron-right me-1"></i> Collection
+                                </a>
+                            </li>
+                            <li class = "my-3">
+                                <a href = "#" class = "text-white text-decoration-none text-muted">
+                                    <i class = "fas fa-chevron-right me-1"></i> Blogs
+                                </a>
+                            </li>
+                            <li class = "my-3">
+                                <a href = "#" class = "text-white text-decoration-none text-muted">
+                                    <i class = "fas fa-chevron-right me-1"></i> About Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class = "col-md-6 col-lg-3">
+                        <h5 class = "fw-light mb-3">Contact Us</h5>
+                        <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                            <span class = "me-3">
+                                <i class = "fas fa-map-marked-alt"></i>
+                            </span>
+                            <span class = "fw-light">
+                                No 5 Rock Of Ages Street, Abegurin, Baruwa Inside Iyana Ipaja, lagos, Nigeria.
+                            </span>
+                        </div>
+                        <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                            <span class = "me-3">
+                                <i class = "fas fa-envelope"></i>
+                            </span>
+                            <span class = "fw-light">
+                                jhay_Materia.support@gmail.com
+                            </span>
+                        </div>
+                        <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                            <span class = "me-3">
+                                <i class = "fas fa-phone-alt"></i>
+                            </span>
+                            <span class = "fw-light">
+                                +234 813 295 9333
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+                    <!-- end of footer  -->
 
      <!-- Jquery  -->
      <script src="js/jquery-3.6.0.js"></script>
